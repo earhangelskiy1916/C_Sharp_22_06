@@ -17,6 +17,6 @@
     return NumberA;
 }
 
-Console.WriteLine("Enter nuber");
+Console.WriteLine("Enter number");
 int MyNumber = int.Parse(Console.ReadLine()!);
 IfMult(MyNumber);
