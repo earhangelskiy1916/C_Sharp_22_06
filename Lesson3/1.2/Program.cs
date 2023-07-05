@@ -4,11 +4,11 @@
      
 }
 
-int Ax = int.Parse(Console.ReadLine())!;
-int Ay = int.Parse(Console.ReadLine())!;
+int Ax = int.Parse(Console.ReadLine()!);
+int Ay = int.Parse(Console.ReadLine()!);
 
-int Bx = int.Parse(Console.ReadLine())!;
-int By = int.Parse(Console.ReadLine())!;
+int Bx = int.Parse(Console.ReadLine()!);
+int By = int.Parse(Console.ReadLine()!);
 
 
 double result = Destination2D(Ax,Bx,Ay,By);

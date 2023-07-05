@@ -4,12 +4,12 @@
 }
 
 Console.WriteLine("isert coordinates");
-int Ax = int.Parse(Console.ReadLine())!;
-int Ay = int.Parse(Console.ReadLine())!;
-int Az = int.Parse(Console.ReadLine())!;
-int Bx = int.Parse(Console.ReadLine())!;
-int By = int.Parse(Console.ReadLine())!;
-int Bz = int.Parse(Console.ReadLine())!;
+int Ax = int.Parse(Console.ReadLine()!);
+int Ay = int.Parse(Console.ReadLine()!);
+int Az = int.Parse(Console.ReadLine()!);
+int Bx = int.Parse(Console.ReadLine()!);
+int By = int.Parse(Console.ReadLine()!);
+int Bz = int.Parse(Console.ReadLine()!);
 
 double result = Destination3D(Ax, Bx, Ay, By, Az, Bz);
 Console.WriteLine(result);
