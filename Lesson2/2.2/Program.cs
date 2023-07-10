@@ -24,7 +24,7 @@
 }
 
 Console.WriteLine("Enter two numbers");
-int MyNumber1 = int.Parse(Console.ReadLine());
-int MyNumber2 = int.Parse(Console.ReadLine());
+int MyNumber1 = int.Parse(Console.ReadLine()!);
+int MyNumber2 = int.Parse(Console.ReadLine()!);
 Mult(MyNumber1, MyNumber2);
 
