@@ -6,12 +6,13 @@
     int StartRange = int.Parse(Console.ReadLine()!);
     Console.WriteLine("enter stop range");
     int StopRange = int.Parse(Console.ReadLine()!);
+    Random rand = new Random();
 
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
-            Array[i,j]= new Random().Next(StartRange,StopRange);
+            Array[i,j]=  new Random().Next(StartRange,StopRange);
             
         }
         
